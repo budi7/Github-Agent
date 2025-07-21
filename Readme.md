@@ -1,7 +1,7 @@
 HOW TO USE
 ----------------------
 
-1. cd ke directory project, copykan init-project.sh dan push-update.
+1. cd ke root directory custom app, copykan init-project.sh dan push-update.
 sh. kemudian jalankan berikut
 
     `sudo chown {nama user anda}:frappe init-project.sh`
