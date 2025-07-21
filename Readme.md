@@ -20,7 +20,7 @@ sh. kemudian jalankan berikut
 
     `./push-update.sh`
 
-* note
+* Note:
   apabila gagal menjalankan point 4 dan 5, maka dapat jalankan script berikut
 
     `sudo chown {nama user anda}:frappe init-project.sh`
