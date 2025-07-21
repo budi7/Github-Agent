@@ -14,8 +14,8 @@ sh. kemudian jalankan berikut
 
 4. apabila sudah, lakukan inisialisasi git, dengan menjalankan
 
-    `/.init-project.sh`
+    `./init-project.sh`
 
 5. jalankan perintah berikut untuk push ke server
 
-    `/.push-update.sh`
+    `./push-update.sh`
