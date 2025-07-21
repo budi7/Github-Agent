@@ -33,4 +33,6 @@ git push -u origin main
 # 8. Hapus remote agar token tidak tersimpan
 git remote remove origin
 
+echo "REPO_PATH=$repo_path" > .env
+
 echo "✅ Proyek berhasil diinisialisasi dan di-push ke GitHub oleh $git_name <$git_email>."
