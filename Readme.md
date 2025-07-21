@@ -23,4 +23,4 @@ sh. kemudian jalankan berikut
 Note:
   apabila gagal menjalankan point 4 dan 5, maka dapat jalankan script berikut
 
-    `sudo chown {nama user anda}:frappe init-project.sh`
+    sudo chown {nama user anda}:frappe init-project.sh
