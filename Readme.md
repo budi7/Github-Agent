@@ -19,3 +19,8 @@ sh. kemudian jalankan berikut
 5. jalankan perintah berikut untuk push ke server
 
     `./push-update.sh`
+
+* note
+  apabila gagal menjalankan point 4 dan 5, maka dapat jalankan script berikut
+
+    `sudo chown {nama user anda}:frappe init-project.sh`
