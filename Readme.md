@@ -5,8 +5,8 @@ HOW TO USE
 sh. kemudian jalankan berikut
 
         sudo chown {nama user anda}:frappe init-project.sh
-   
         sudo chown {nama user anda}:frappe push-update.sh
+        chmod +x init-project.sh push-update.sh
 
 3. jika sebelumnya ada inisialisasi git, jalankan perintah berikut
 
@@ -20,9 +20,4 @@ sh. kemudian jalankan berikut
 
         ./push-update.sh
 
-Note:
-  apabila gagal menjalankan point 4 dan 5, maka dapat jalankan script berikut
-
-    sudo chown {nama user anda}:frappe init-project.sh
-    sudo chown {nama user anda}:frappe push-update.sh
     
