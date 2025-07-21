@@ -1,23 +1,28 @@
-HOW TO USE
+## HOW TO USE
 ----------------------
 
-1. cd ke root directory custom app, copykan init-project.sh dan push-update.
-sh. kemudian jalankan berikut
+1. Navigate to the root directory of your custom app, then copy `init-project.sh` and `push-update.sh` into it. After that, run the following commands:
 
-        sudo chown {nama user anda}:frappe init-project.sh
-        sudo chown {nama user anda}:frappe push-update.sh
-        chmod +x init-project.sh push-update.sh
+    ```bash
+    sudo chown {your_username}:frappe init-project.sh
+    sudo chown {your_username}:frappe push-update.sh
+    chmod +x init-project.sh push-update.sh
+    ```
 
-3. jika sebelumnya ada inisialisasi git, jalankan perintah berikut
+2. If the directory has already been initialized with Git before, remove the existing Git configuration:
 
-        rm -rf .git
+    ```bash
+    rm -rf .git
+    ```
 
-4. apabila sudah, lakukan inisialisasi git, dengan menjalankan
+3. Once ready, initialize the Git repository by running:
 
-        ./init-project.sh
+    ```bash
+    ./init-project.sh
+    ```
 
-5. jalankan perintah berikut untuk push ke server
+4. To push your changes to GitHub, run:
 
-        ./push-update.sh
-
-    
+    ```bash
+    ./push-update.sh
+    ```
