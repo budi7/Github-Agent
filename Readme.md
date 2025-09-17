@@ -4,8 +4,8 @@
 1. Navigate to the root directory of your custom app, then copy `init-project.sh` and `push-update.sh` into it. After that, run the following commands:
 
     ```bash
-    sudo chown {your_username}:frappe init-project.sh
-    sudo chown {your_username}:frappe push-update.sh
+    sudo chown {your_username}:{your_username} init-project.sh
+    sudo chown {your_username}:{your_username} push-update.sh
     chmod +x init-project.sh push-update.sh
     ```
 
